@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      html,body{
+        margin: 0;
+        padding: 0;
+      }
+      h1{
+        margin-top: 0;
+      }
+      .full-hero{
+        background-color: #c7dbfc;
+        height: 50vh;
+        width: 50vw;
+      }
         a {
             color: #ff0000;
         }
@@ -14,19 +26,26 @@
           color: blue;
         }
         .bio-wraper{
-          font-size: 24px;
         }
         .bio-box{
             border: 1px solid black;
-            font-size: 48px; 
+            font-size: 1em; 
             width: 50%; 
             padding: 20px;
         }
+        .bio-box h3{
+          font-size: 1.5rem;
+        }
+        .bio-copy{
+          font-size: 1em;
+        }
         .bio-copy a{
             color: green;
-            font-size: 1em;
         }
-
+        h1{
+          font-size: 2em;
+          margin-top: 0;
+        }
         h2{
           font-size: 30px;
         }
@@ -34,7 +53,20 @@
     </style>
 </head>
 <body>
-    <h1>I'm an h1</h1>
+  <div class="full-hero hero-home">
+    <h1>I’m an h1</h1>
+  <ul>
+    <li>
+      <a href="https://example.com/" class="social-link">Link</a>
+   </li>
+   <li>
+      <a href="https://example.com/" class="social-link">Link</a>
+   </li>
+   <li>
+     <a href="https://example.com/" class="social-link">Link</a>
+   </li>
+  </ul>
+  </div>
     <div class="bio-wraper">
       <div class="bio-box">
         <h3>Michael Hartl</h3>
