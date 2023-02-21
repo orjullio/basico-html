@@ -19,9 +19,18 @@
         height: 50vh;
         width: 50vw;
       }
-        a {
+      a {
             color: #ff0000;
-        }
+      }
+      
+      .social-list{
+        list-style: none;
+        padding: 0;
+      }
+
+      .social-list > li{
+        display: inline-block;
+      }
 
       .social-link {
         background: rgba(150, 150, 150, 0.5);
@@ -32,7 +41,6 @@
       }
       .test-box{
         background-color: #9db6dd;
-        
         margin: 200px;
         
       }
@@ -59,6 +67,7 @@
         }
         .bio-wraper{
           font-size: 24px;
+          overflow: hidden;
         }
         .bio-wraper::after{
           visibility: hidden;
@@ -91,7 +100,7 @@
 <body>
   <div class="full-hero hero-home">
     <h1>I’m an h1</h1>
-  <ul>
+  <ul class="social-list">
     <li>
       <a href="https://example.com/" class="social-link show">Link</a>
    </li>
@@ -155,12 +164,6 @@
             </p>
           </div>
         </div>
-
-        <div class="bio-wrapper">
-          .
-          .
-          .
-        </div>
         <p style="clear: left;">
           Learn Enough to Be Dangerous is a leader in the movement to teach the
           world <em>technical sophistication</em>, which includes both "hard
@@ -190,7 +193,19 @@
         </p>
 
 
-        
+
+        <h2>I’m an h2</h2>
+
+        <div class="test-box">
+          200px wide
+        </div>
+        <div class="test-box test-box-nosizing">
+          200px wide + border + padding = 300px
+        </div>
+        <div class="test-box test-box-nosizing test-box-sizing">
+          200px wide + border + padding + box-sizing: border-box = 200px
+        </div>
+                
         
       </body>
       </html>
