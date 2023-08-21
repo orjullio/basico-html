@@ -92,3 +92,14 @@ h4{
 }
 
 
+@media (max-width: 800px) {
+
+  .blog-recent{
+    display: none;
+  }
+  .blog-previews{
+    padding: 0;
+  }
+
+  
+}
