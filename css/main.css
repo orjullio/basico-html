@@ -516,6 +516,14 @@ h2 ~ p {
     display: none;
   }
 
+  .blog-recent{
+    display: none;
+  }
+
+  .display-previewa{
+    padding: 0;
+  }
+
   /*Home Styles*/
 
   .home-callout{
